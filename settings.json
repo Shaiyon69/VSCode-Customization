@@ -1,0 +1,89 @@
+{
+  "workbench.colorTheme": "Fig"
+
+  // UI & WORKBENCH LAYOUT
+  "workbench.activityBar.location": "hidden",      // Default: Show the left/right icon bar (Extensions, Git, etc.) - Hidden: Hides
+  "workbench.sideBar.location": "right",            // Moves the sidebar to the right side
+  "workbench.statusBar.visible": true,             // Set to true to see the bottom status bar
+  "workbench.editor.showTabs": "single",
+  "window.zoomLevel": 0.2,                          // Global UI scaling
+  
+  // Minimalist UI Toggles
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+
+  // EDITOR SETTINGS (Typing & Appearance)
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.7,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",        // Smoothly moving cursor
+  
+  // Clean Workspace (Disabling visual clutter)
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "never",
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": "off",
+  "editor.showFoldingControls": "never",
+  "editor.overviewRulerBorder": false,
+  
+  // Hide Scrollbars
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+
+  // COLORS & THEMING
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.selectedBackground": "#cc4e80",
+    "list.activeSelectionBackground": "#cc4e80",
+    "list.inactiveSelectionBackground": "#cc4e80",
+    "list.focusBackground": "#cc4e80",
+    "list.hoverBackground": "#cc4e80",
+    "sideBar.background": "#5d0835",
+    "terminalCursor.foreground": "#dd3f86"
+  },
+
+  // FILE MANAGEMENT & GIT
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "extensions.ignoreRecommendations": true,
+
+  // INTEGRATED TERMINAL
+  "terminal.integrated.fontFamily": "Dank Mono, JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.tabs.enabled": false,
+
+  // APC CUSTOMIZE UI++ (Advanced Styling)
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset"
+  },
+  "apc.font.family": "Dank Mono",
+  "apc.listRow": {
+    "lists": ["explorer-folders-view", "quick-input-list", "results"],
+    "height": 30
+  },
+  "apc.stylesheet": {
+    ".title-actions": "display: none !important",
+    ".sidebar": "border: none !important",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #FF8A9D 10%, #E75480 100%)",
+    ".panel .composite.title": "visibility: hidden !important",
+    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #1F1519 !important"
+  },
+  "apc.imports": [
+    "file:///Users/igorbabko/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+  ],
+}
